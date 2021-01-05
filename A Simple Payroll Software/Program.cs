@@ -69,6 +69,7 @@ namespace A_Simple_Payroll_Software
             PaySlip ps = new PaySlip(month, year);
             ps.GeneratePaySlip(myStaff);
             ps.GenerateSummary(myStaff);
+            Console.WriteLine("Execution Complete! \nPayment Slips for the Staff and a Summary has been generated");
             Console.Read();
 
         }

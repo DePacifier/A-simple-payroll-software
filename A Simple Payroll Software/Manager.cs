@@ -23,7 +23,7 @@
         public override string ToString()
         {
             return $"Name: {NameOfStaff}, Hours Worked: {HoursWorked}, Hourly Rate: {managerHourlyRate}, " +
-                   $"Allowance: {Allowance}, Basic Pay: {BasicPay:C}, and Total Pay: {TotalPay:C}";
+                   $"Allowance: {Allowance:C}, Basic Pay: {BasicPay:C}, and Total Pay: {TotalPay:C}";
         }
     }
 }

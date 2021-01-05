@@ -37,10 +37,10 @@ namespace A_Simple_Payroll_Software
                 sw.WriteLine("");
                 if (f.GetType() == typeof(Manager))
                 {
-                    sw.WriteLine($"Allowance: {((Manager)f).Allowance}");
+                    sw.WriteLine($"Allowance: {((Manager)f).Allowance:C}");
                 }else if (f.GetType() == typeof(Admin))
                 {
-                    sw.WriteLine($"Overtime Pay: {((Admin)f).Overtime}");
+                    sw.WriteLine($"Overtime Pay: {((Admin)f).Overtime:C}");
                 }
                 sw.WriteLine("");
                 sw.WriteLine("==============================================");
