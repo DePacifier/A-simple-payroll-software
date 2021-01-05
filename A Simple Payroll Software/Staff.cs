@@ -38,7 +38,7 @@ namespace A_Simple_Payroll_Software
         public override string ToString()
         {
             return $"Name: {NameOfStaff}, Hours Worked: {hWorked}, Hourly Rate: {hourlyRate}, " +
-                   $"Basic Pay: {BasicPay}, and Total Pay: {TotalPay}";
+                   $"Basic Pay: {BasicPay:C}, and Total Pay: {TotalPay:C}";
         }
     }
 }
